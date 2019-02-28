@@ -1,0 +1,652 @@
+html {
+	scroll-behavior: smooth;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #fff8e8;
+	font-family: Arial;
+}
+
+p, h2, h3, h4, h5, h6, a{
+	font-family: Arial;
+}
+
+@media only screen and (max-width:620px) {
+	.menu, .main, .right {
+		width: 100%;
+	}
+}
+
+		/* ------------------- HEADING ------------------- */
+
+.imagetext { /* BOTTOM HEADING TEXT */
+	color: white;
+	position: absolute;
+	top: 1.3%;
+	left: 31.3%;
+	font-family: Brush Script MT, Arial;
+	font-size: 200%;
+}
+
+.imagetext2 { /* CENTER HEADING TEXT */
+	color: #c40350;
+	position: absolute;
+	top: 1.1%;
+	left: 31%;
+	font-family: Brush Script MT, Arial;
+	font-size: 200%;
+}
+
+.imagetext3 { /* TOP HEADING TEXT */
+	color: pink;
+	position: absolute;
+	top: 0.8%;
+	left: 30.9%;
+	font-family: Brush Script MT, Arial;
+	font-size: 200%;
+}
+
+.heading img{
+	height: 150px;
+	width: 100%;
+	border-radius: 5px 5px 0px 0px;
+}
+
+
+.heading_line {
+	background-color: pink;
+	height: 10px;
+	margin-bottom: 55px;
+	width: 100%;
+	border-bottom: 2px solid #c40350;
+	border-radius: 0px 0px 5px 5px;
+}
+
+		/* ------------------- NAVIGATION MENU ------------------- */
+
+.navmenu {
+	float: left;
+	width: 20%;
+	padding: 0px 0px 0px 15px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 10px;
+	font-family: Brush Script MT, Arial;
+	font-size: 200%;
+}
+.navmenu a {
+	background-image: linear-gradient(to right, #f9fdff, pink, pink, pink, pink, pink, #f9fdff);
+	padding: 5px;
+	margin-top: 5px;
+	display: block;
+	width: 100%;
+	color: #c40350;
+	border-top: 2px solid pink;
+	border-bottom: 2px solid #c40350;
+	text-decoration: none;
+	border-radius: 10px;
+	font-family: Brush Script MT, Arial;
+}
+
+.navmenu a:hover{
+	background-image: linear-gradient(to right, #f9fdff, pink, #f9fdff);
+	color: white;
+	text-decoration: none;
+	font-family: Brush Script MT, Arial;
+	text-shadow: 2px 2px #c40350;
+}
+
+		/* ------------------- MIAN PAGE CONTENT ------------------- */
+
+.main {
+	margin-top: 10px;
+	float: left;
+	width: 60%;
+	padding: 0px 25px;
+}
+
+.main h2 {
+	color: pink;
+	background-color: white;
+	text-shadow: 2px 2px #c40350;
+	text-align: center;
+	border-radius: 5px;
+	border-left: 2px solid #c40350;
+	border-right: 2px solid #c40350;
+}
+
+#home_mainC{
+	color: black;
+	font-size: 120%;
+	/*text-shadow: 1px 1px gray;*/
+}
+
+#home_mainC a {
+	text-decoration: none;
+	color: #c40350;
+}
+
+#home_mainC img {
+	height: 25%;
+	width: 32%;
+	margin-left: 5px;
+	border-top: 5px solid pink;
+	border-bottom: 5px solid #ef88bf;
+	border-radius: 5px 5px 5px 5px;
+}
+
+#about_mainC {
+	color: black;
+	font-size: 120%;
+	/*text-shadow: 1px 1px gray;*/
+}
+
+.contact_table {
+	border-top: 2px solid pink;
+	border-bottom: 2px solid #c40350;
+	border-radius: 5px;
+	width: 100%;
+	
+}
+
+.contact_table tr {
+	background-color: white;
+}
+
+.contact_form {
+	text-align: center;
+	font-size: 120%;
+}
+
+th {
+	border-bottom: 2px solid #c40350;
+}
+
+form {
+	background-image: linear-gradient(to right, #f9fdff, white, white, white, #f9fdff);
+	border-top: 2px solid pink;
+	border-bottom: 2px solid #c40350;
+	border-radius: 5px;
+}
+
+.Products_Pastry {
+	background-color: white;
+	border-top: 2px solid pink;
+	border-bottom: 2px solid #c40350;
+	border-radius: 5px;
+}
+
+.Products_Pastry a {
+	text-decoration: none;
+	color: #c40350;
+}
+
+	/* -------------------------------- PASTRY -------------------------------- */
+
+	/* FAWORKI */
+
+.P_faworki {
+	overflow: left;
+	margin-left: 3%;
+}
+
+.P_faworki p{
+	padding-bottom: 2%;
+}
+
+.P_faworki img {
+	width: 20%;
+	height: 17.5%;
+	border-top: 2px solid pink;
+	border-bottom: 2px solid #c40350;
+	border-radius: 5px;
+	float: left;
+	margin-right: 3%;
+}
+
+	/* DOUGHNUTS */
+
+.P_doughnuts {
+	overflow: left;
+	margin-left: 3%;
+}
+
+.P_doughnuts p{
+	padding-bottom: 2%;
+}
+
+.P_doughnuts img {
+	width: 20%;
+	height: 17.5%;
+	border-top: 2px solid pink;
+	border-bottom: 2px solid #c40350;
+	border-radius: 5px;
+	float: left;
+	margin-right: 3%;
+}
+
+	/* ECLAIRS */
+
+.P_eclairs {
+	overflow: left;
+	margin-left: 3%;
+}
+
+.P_eclairs p{
+	padding-bottom: 2%;
+}
+
+.P_eclairs img {
+	width: 20%;
+	height: 17.5%;
+	border-top: 2px solid pink;
+	border-bottom: 2px solid #c40350;
+	border-radius: 5px;
+	float: left;
+	margin-right: 3%;
+}
+
+	/* DROZDZOWKA */
+
+.P_drozdzowka {
+	overflow: left;
+	margin-left: 3%;
+}
+
+.P_drozdzowka p{
+	padding-bottom: 2%;
+}
+
+.P_drozdzowka img {
+	width: 20%;
+	height: 17.5%;
+	border-top: 2px solid pink;
+	border-bottom: 2px solid #c40350;
+	border-radius: 5px;
+	float: left;
+	margin-right: 3%;
+}
+
+	/* CHALKA */
+
+.P_chalka {
+	overflow: left;
+	margin-left: 3%;
+}
+
+.P_chalka p{
+	padding-bottom: 2%;
+}
+
+.P_chalka img {
+	width: 20%;
+	height: 17.5%;
+	border-top: 2px solid pink;
+	border-bottom: 2px solid #c40350;
+	border-radius: 5px;
+	float: left;
+	margin-right: 3%;
+}
+
+	/* MAKOWIEC */
+
+.P_makowiec {
+	overflow: left;
+	margin-left: 3%;
+}
+
+.P_makowiec p{
+	padding-bottom: 2%;
+}
+
+.P_makowiec img {
+	width: 20%;
+	height: 17.5%;
+	border-top: 2px solid pink;
+	border-bottom: 2px solid #c40350;
+	border-radius: 5px;
+	float: left;
+	margin-right: 3%;
+}
+
+	/* JAM PASTRY ROLLS */
+
+.P_jam_pastry_rolls {
+	overflow: left;
+	margin-left: 3%;
+}
+
+.P_jam_pastry_rolls p{
+	padding-bottom: 2%;
+}
+
+.P_jam_pastry_rolls img {
+	width: 20%;
+	height: 17.5%;
+	border-top: 2px solid pink;
+	border-bottom: 2px solid #c40350;
+	border-radius: 5px;
+	float: left;
+	margin-right: 3%;
+}
+
+	/* APRICOT SANDWICH */
+
+.P_apricot_sandwich {
+	overflow: left;
+	margin-left: 3%;
+}
+
+.P_apricot_sandwich p{
+	padding-bottom: 2%;
+}
+
+.P_apricot_sandwich img {
+	width: 20%;
+	height: 17.5%;
+	border-top: 2px solid pink;
+	border-bottom: 2px solid #c40350;
+	border-radius: 5px;
+	float: left;
+	margin-right: 3%;
+}
+
+	/* PUFF PASTRY ROLLS */
+
+.P_puff_pastry_rolls {
+	overflow: left;
+	margin-left: 3%;
+}
+
+.P_puff_pastry_rolls p{
+	padding-bottom: 2%;
+}
+
+.P_puff_pastry_rolls img {
+	width: 20%;
+	height: 17.5%;
+	border-top: 2px solid pink;
+	border-bottom: 2px solid #c40350;
+	border-radius: 5px;
+	float: left;
+	margin-right: 3%;
+}
+
+	/* CARAMEL BIANCO CAKE */
+
+.P_caramel_bianco_cake {
+	overflow: left;
+	margin-left: 3%;
+}
+
+.P_caramel_bianco_cake p{
+	padding-bottom: 2%;
+}
+
+.P_caramel_bianco_cake img {
+	width: 20%;
+	height: 17.5%;
+	border-top: 2px solid pink;
+	border-bottom: 2px solid #c40350;
+	border-radius: 5px;
+	float: left;
+	margin-right: 3%;
+}
+
+	/* VANILLA BROWNIE */
+
+.P_vanilla_brownie {
+	overflow: left;
+	margin-left: 3%;
+}
+
+.P_vanilla_brownie p{
+	padding-bottom: 2%;
+}
+
+.P_vanilla_brownie img {
+	width: 20%;
+	height: 17.5%;
+	border-top: 2px solid pink;
+	border-bottom: 2px solid #c40350;
+	border-radius: 5px;
+	float: left;
+	margin-right: 3%;
+}
+
+.Products_Pastry h3 {
+	text-align: center;
+	color: pink;
+	background-color: white;
+	text-shadow: 2px 2px #c40350;
+	border-bottom: 2px solid #c40350;
+	padding-bottom: 3%;
+	font-family: Brush Script MT, Arial;
+	font-size: 150%;
+}
+
+	/* -------------------------------- SWEETS -------------------------------- */
+
+	/* MICHALKI */
+
+.S_michalki {
+	overflow: left;
+	margin-left: 3%;
+}
+
+.S_michalki p{
+	padding-bottom: 2%;
+}
+
+.S_michalki img {
+	width: 20%;
+	height: 17.5%;
+	border-top: 2px solid pink;
+	border-bottom: 2px solid #c40350;
+	border-radius: 5px;
+	float: left;
+	margin-right: 3%;
+}
+
+	/* KUKULKI */
+
+.S_kukulki {
+	overflow: left;
+	margin-left: 3%;
+}
+
+.S_kukulki p{
+	padding-bottom: 2%;
+}
+
+.S_kukulki img {
+	width: 20%;
+	height: 17.5%;
+	border-top: 2px solid pink;
+	border-bottom: 2px solid #c40350;
+	border-radius: 5px;
+	float: left;
+	margin-right: 3%;
+}
+
+	/* KROWKI */
+
+.S_krowki {
+	overflow: left;
+	margin-left: 3%;
+}
+
+.S_krowki p{
+	padding-bottom: 2%;
+}
+
+.S_krowki img {
+	width: 20%;
+	height: 17.5%;
+	border-top: 2px solid pink;
+	border-bottom: 2px solid #c40350;
+	border-radius: 5px;
+	float: left;
+	margin-right: 3%;
+}
+
+	/* ZOZOLE */
+
+.S_zozole {
+	overflow: left;
+	margin-left: 3%;
+}
+
+.S_zozole p{
+	padding-bottom: 2%;
+}
+
+.S_zozole img {
+	width: 20%;
+	height: 17.5%;
+	border-top: 2px solid pink;
+	border-bottom: 2px solid #c40350;
+	border-radius: 5px;
+	float: left;
+	margin-right: 3%;
+}
+
+	/* CUKIERKI - KASZTANKI & TIKI-TAKI & MALAGI */
+
+.S_cukierki {
+	overflow: left;
+	margin-left: 3%;
+}
+
+.S_cukierki p{
+	padding-bottom: 2%;
+}
+
+.S_cukierki img {
+	width: 20%;
+	height: 17.5%;
+	border-top: 2px solid pink;
+	border-bottom: 2px solid #c40350;
+	border-radius: 5px;
+	float: left;
+	margin-right: 3%;
+}
+
+	/* MAXI NUGA STRAWBERRY */
+
+.S_maxipink {
+	overflow: left;
+	margin-left: 3%;
+}
+
+.S_maxipink p{
+	padding-bottom: 2%;
+}
+
+.S_maxipink img {
+	width: 20%;
+	height: 17.5%;
+	border-top: 2px solid pink;
+	border-bottom: 2px solid #c40350;
+	border-radius: 5px;
+	float: left;
+	margin-right: 3%;
+}
+
+	/* MAXI NUGA LEMON */
+
+.S_maxiyellow {
+	overflow: left;
+	margin-left: 3%;
+}
+
+.S_maxiyellow p{
+	padding-bottom: 2%;
+}
+
+.S_maxiyellow img {
+	width: 20%;
+	height: 17.5%;
+	border-top: 2px solid pink;
+	border-bottom: 2px solid #c40350;
+	border-radius: 5px;
+	float: left;
+	margin-right: 3%;
+}
+
+#p_sweets_h3 {
+	border-top: 2px solid pink;
+	padding-top: 3%;
+}
+
+.Back_to_top a {
+	text-align: center;
+	margin-left: 40%;
+	border: 2px solid pink;
+	border-radius: 5px;
+	padding: 2px;
+	font-family: Brush Script MT, Arial;
+	font-size: 150%;
+	text-shadow: 1.5px 1.5px pink;
+	background-color: #fff8e8;
+}
+
+.Back_to_top2 a {
+	text-align: center;
+	margin-left: 40%;
+	border: 2px solid pink;
+	border-radius: 5px;
+	padding: 2px;
+	font-family: Brush Script MT, Arial;
+	font-size: 150%;
+	text-shadow: 1.5px 1.5px pink;
+	background-color: #fff8e8;
+}
+
+		/* ------------------- LOGO ------------------- */
+
+.right {
+	margin-top: 10px;
+	margin-right: 1px;
+	background-color: lightgray;
+	float: left;
+	width: 19%;
+	text-align: center;
+	border-top: 2px solid pink;
+	border-bottom: 2px solid #c40350;
+	border-radius: 5px;
+}
+
+.right img {
+	width: 100%;
+	height: 40%;
+	border-radius: 5px;
+}
+
+.footLOGOtext img {
+	border-top: 2px solid pink;
+	border-bottom: 2px solid #c40350;
+	border-radius: 5px;
+	height: 5%;
+	width: 12%;
+	margin-top: 2px;
+}
+
+		/* ------------------- FOOTER ------------------- */
+
+.copy {
+	background-color: white;
+	text-align: center;
+	padding: 5px;
+	margin-top: 7px;
+	bottom: 0;
+	border-top: 1px solid pink;
+	border-bottom: 2px solid #c40350;
+	font-size: 85%;
+}
+
+
